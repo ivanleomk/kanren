@@ -1,0 +1,23 @@
+{
+  "kind": "os::Exec",
+  "id": "build",
+  "fqn": "cloudflare-vite/ivanleo/website/build",
+  "seq": 0,
+  "status": "creating",
+  "data": {},
+  "output": {
+    "Symbol(alchemy::ResourceID)": "build",
+    "Symbol(alchemy::ResourceFQN)": "cloudflare-vite/ivanleo/website/build",
+    "Symbol(alchemy::ResourceKind)": "os::Exec",
+    "Symbol(alchemy::ResourceScope)": {
+      "@scope": null
+    },
+    "Symbol(alchemy::ResourceSeq)": 0
+  },
+  "props": {
+    "command": "bun run build"
+  },
+  "oldProps": {
+    "command": "bun run build"
+  }
+}

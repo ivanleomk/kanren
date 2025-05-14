@@ -1,0 +1,7 @@
+{
+  "compilerOptions": {
+    // make sure to register this globally
+    "types": ["@cloudflare/workers-types"]
+  },
+  "include": ["src/**/*.ts", "src/**/*.tsx"]
+}
